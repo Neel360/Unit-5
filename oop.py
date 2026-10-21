@@ -10,7 +10,7 @@ class Vehichle:
         self.mileage = mileage
 
 modelX = Vehichle(240,18)
-
+print("\n\nVehichle stats:\n")
 print(f"Model X max speed: {modelX.max_speed}")
 print(f"Model X mileage: {modelX.mileage}")
 
